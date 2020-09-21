@@ -5,34 +5,34 @@
 
 package constructor;
 
-public class Employee {
+public class Employee12 {
 	String name;
 	int id;
 	int sal;
 	int da,hra;
 	//default constructor
-	 Employee() 
+	 Employee12() 
 	{
 		name="ganu";
 		id=4567;
-		sal=40000;
+		hra=40000;
+		da=2000;
 		System.out.println("i am default employee");
 	}
 	 //parameterized constructor
-      Employee(int id,String name,int sal)
+      Employee12(int id,String name,int hra,int da)
 	{
 	 this.name=name;
 	 this.id=id;
-	 this.sal=sal;
-	System.out.println("i am a parameterized  employee"+name+" "+id+" "+sal);
+	 this.hra=hra;
+	 this.da=da;
+	System.out.println("i am a parameterized  employee");
 	}
  int salary() 
 	{
-		int da,hra,sal;
-		hra=40000;
-		da=20000;
+		
 		sal= hra+da;
-	System.out.println("employee salary is"+sal);
+	//System.out.println("employee salary is"+sal);
 		return sal;
 	}
  void display()

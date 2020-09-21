@@ -4,9 +4,12 @@ public class VehicleBikeMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Bike object =new Bike();
-		object.display();
-		object.display1();
+		
+		Bike1 b=new Bike1();
+		b.discount();
+		b.display();
+		b.display1();
+		
 
 	}
 

@@ -6,6 +6,7 @@ public class VehicleMain {
 		// TODO Auto-generated method stub
 		Car obj = new Car();
 		obj.numWheels();
+		
 		Truck obj1 = new Truck();
 		obj1.numWheels();
 
